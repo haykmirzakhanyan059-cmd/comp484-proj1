@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+}
+
+.site-header {
+  padding: 15px 25px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.logo {
+  width: 150px;
+  height: auto;
+  display: block;
+  border-radius: 100px;
+}
