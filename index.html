@@ -12,11 +12,11 @@
         </head>
 
         <body>
-            <header role="site-header">
+            <header class="site-header">
                 <!-- Left side: Logo to main -->
                 <a href="index.html">
                     <img
-                        src="images/rai_automotive.jpg"
+                        src="images/Rai-automotive-logo.png"
                         alt="Rai Automotive home"
                         class="logo"
                     >
@@ -24,29 +24,34 @@
 
                 <!-- Right side: menu and search -->
                 <div class="header-tools">
-
+                    
+                    <div class="site-search">
+                        <details>
+                            <summary aria-label="Open search bar">🔍︎</summary>
+                            <input
+                                type="search"
+                                id="site-search"
+                                name="q"
+                                placeholder="Search the website"
+                            >
+                        </details>
+                    </div>
+                    
                     <nav>
+                        <!-- Create a dropdown menu for pages -->
                         <details class="page-menu">
-                            <summary>Pages</summary>
+                            <summary aria-label="Open navigation menu">☰</summary>
 
-                            <ul class="page-list">
-                                <li><a href="index.html">Home</a></li>
-                                <li><a href="services.html">Services</a></li>
-                                <li><a href="about.html">About Us</a></li>
-                                <li><a href="contact.html">Contact</a></li>
-                            </ul>
+                            <div class="page-list">
+                                <ul>
+                                    <div><li><a href="index.html">Home</a></li></div>
+                                    <div><li><a href="services.html">Services</a></li></div>
+                                    <div><li><a href="about.html">About Us</a></li></div>
+                                    <div><li><a href="contact.html">Contact</a></li></div>
+                                </ul>
+                            </div>
                         </details>
                     </nav>
-
-                    <div class="site-search">
-                    <label for="site-search">Search:</label>
-                    <input
-                        type="search"
-                        id="site-search"
-                        name="q"
-                        placeholder="Search the website"
-                    >
-                    </div>
 
                 </div>
 

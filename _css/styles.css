@@ -1,17 +1,82 @@
+
+
 body {
   margin: 0;
 }
 
 .site-header {
-  padding: 15px 25px;
+  padding: 10px 10px;
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  gap: 20px;
+  background-color: #ffffff;
+  border-bottom: 5px solid #ff3038;
+  justify-content: space-between;
+}
+
+.header-tools {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 25px;
 }
 
 .logo {
   width: 150px;
   height: auto;
   display: block;
-  border-radius: 100px;
+}
+
+.page-menu {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-left: auto;
+  cursor: pointer;
+  padding: 10px;
+  position: relative;
+  border: 5px solid #ff3038;
+}
+
+.page-menu summary {
+  list-style: none;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+/* hides the default triangle but for safari */
+.page-menu summary::-webkit-details-marker {
+  display: none;
+}
+
+.page-list {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  z-index: 10;
+  
+  list-style: none;
+  margin: 0;
+  padding: 8px;
+  min-width: 10px;
+}
+
+.site-search {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  position: relative;
+  border: 5px solid #ff3038;
+}
+
+.site-search summary {
+  list-style: none;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+/* hides the default triangle but for safari */
+.site-search summary::-webkit-details-marker {
+  display: none;
 }
