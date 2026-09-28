@@ -1,0 +1,116 @@
+<!-- Hey everyone. My project is supposed to be a website for a car electritian shop -->
+<!-- My elements are <fieldset>, <datalist>, <optgroup> and my attributes are autocomplete,  minlength, loop-->
+
+
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=0.8, maximum-scale=1.2">
+        <title>Rai Automotive</title>
+            <link href="_css/styles.css" rel="stylesheet" type="text/css">
+        </head>
+
+        <body>
+            <header class="site-header">
+                <!-- Left side: Logo to main -->
+                <a href="index.html">
+                    <img
+                        src="images/Rai-automotive-logo.png"
+                        alt="Rai Automotive home"
+                        class="logo"
+                    >
+                </a>
+
+                <!-- Right side: menu and search -->
+                <div class="header-tools">
+                    
+                    <div class="site-search">
+                        <details>
+                            <summary aria-label="Open search bar">🔍︎</summary>
+                            <input
+                                type="search"
+                                id="site-search"
+                                name="q"
+                                placeholder="Search the website"
+                            >
+                        </details>
+                    </div>
+                    
+                    <nav>
+                        <!-- Create a dropdown menu for pages -->
+                        <details class="page-menu">
+                            <summary aria-label="Open navigation menu">☰</summary>
+
+                            <div class="page-list">
+                                <ul>
+                                    <div><li><a href="index.html" title="Home">Home</a></li></div>
+                                    <div><li><a href="services.html">Services</a></li></div>
+                                    <div><li><a href="appointments.html" title="Make an appointment">Appointments</a></li></div>
+                                    <div><li><a href="contact.html" title="Contact Rai Automotive">Contact</a></li></div>
+                                </ul>
+                            </div>
+                        </details>
+                    </nav>
+
+                </div>
+
+            </header>
+
+            <div class="hero">
+                <!--MY ATTRIBUTE: loop, loops the video so it doesnt stop after it ends-->
+                <video autoplay muted loop
+                    src="videos/broken-car.mp4"
+                    aria-label="A broken car on the side of the road"
+                >Unsupported video by your browser</video>
+            </div>
+
+            <main>
+                <h1>Contact Rai Automotive</h1>
+
+                <p>
+                    Having electrical problems with your vehicle? Need a calibration, or dealing with an issue you cannot figure out? Contact Rai Automotive to discuss how we can help.
+                </p>
+
+                <h2>Get in Touch</h2>
+
+                <p>
+                    For direct contact, send us a message on
+                    <a href="https://www.instagram.com/rai.automotive/"
+                    target="_blank"
+                    rel="noopener">
+                        Instagram
+                    </a>. Tell us about your vehicle and the issue you are experiencing.
+                </p>
+
+                <p>
+                    You can also fill out our <a href="appointments.html">appointment request form</a>, and a representative will contact you to discuss your vehicle and arrange the next steps.
+                </p>
+
+                <h2>Car Not Running? We Can Come to You</h2>
+
+                <p>
+                    If your vehicle will not run, we offer home visits so a specialist can come to your location and check the car. Contact us to discuss your situation and arrange a visit.
+                </p>
+
+                <h2>Visit Our Shop</h2>
+
+                <address>
+                    Rai Automotive<br>
+                    9035 Eton Ave, Suite B<br>
+                    Canoga Park, CA 91304
+                </address>
+            </main>
+
+
+            <footer class="site-footer">
+                <p><a href="https://www.instagram.com/rai.automotive/" title="Rai Automotive on Instagram" target="_blank"><img src="images/insta.png" alt="Instagram"></a></p>
+                <p class="footer-link"><a href="contact.html" title="Contact Rai Automotive">Contact Us</a></p>
+                <p class="footer-link"><a href="appointments.html" title="Make an appointment">Make an Appointment</a></p>
+                <p><address>9035 Eton Ave, Suite B,<br> Canoga Park, CA 91304 <br> United States</address></p>
+            </footer>
+        </body>
+        
+
+
+    </html>

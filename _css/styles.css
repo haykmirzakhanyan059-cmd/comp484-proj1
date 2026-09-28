@@ -10,7 +10,7 @@ body {
   justify-content: flex-start;
   align-items: center;
   gap: 20px;
-  background-color: #ffffff;
+  background-color: #eeeeee;
   border-bottom: 5px solid #ff3038;
   justify-content: space-between;
 }
@@ -34,15 +34,18 @@ body {
   align-items: center;
   margin-left: auto;
   cursor: pointer;
-  padding: 10px;
+  padding: 5px;
   position: relative;
-  border: 5px solid #ff3038;
 }
 
 .page-menu summary {
   list-style: none;
   font-size: 40px;
   cursor: pointer;
+}
+
+.page-menu summary:hover {
+  color: #ff3038;
 }
 
 /* hides the default triangle but for safari */
@@ -58,7 +61,7 @@ body {
   
   list-style: none;
   margin: 0;
-  padding: 8px;
+  padding: 5px;
   min-width: 10px;
 }
 
@@ -67,7 +70,6 @@ body {
   align-items: center;
   gap: 10px;
   position: relative;
-  border: 5px solid #ff3038;
 }
 
 .site-search summary {
@@ -76,7 +78,69 @@ body {
   cursor: pointer;
 }
 
+.site-search summary:hover {
+  color: #ff3038;
+}
+
 /* hides the default triangle but for safari */
 .site-search summary::-webkit-details-marker {
   display: none;
+}
+
+.hero {
+  display: flex;
+  overflow-x: auto;
+  list-style: none;
+}
+
+.hero img {
+  width: 100%;
+  flex-shrink: 0;
+  height: 700px;
+  object-fit: cover;  
+  border-bottom: 5px solid #ff3038;
+}
+
+main {
+  padding: 40px;
+}
+
+.site-footer {
+  display: block;
+  padding: 10px;
+  text-align: center;
+  border-top: 5px solid #ff3038;
+}
+
+.site-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding: 25px;
+  background-color: #eeeeee;
+  flex-wrap: wrap;
+  border-top: 5px solid #ff3038;
+}
+
+.site-footer p {
+  margin: 0;
+}
+
+footer img {
+  width: 30px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.footer-link {
+  color: #000000;
+}
+
+video {
+  width: 100%;
+  height: 700px;
+  object-fit: cover;
+  border-bottom: 5px solid #ff3038;
 }
