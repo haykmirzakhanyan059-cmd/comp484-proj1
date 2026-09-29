@@ -7,7 +7,6 @@ body {
 .site-header {
   padding: 10px 10px;
   display: flex;
-  justify-content: flex-start;
   align-items: center;
   gap: 20px;
   background-color: #eeeeee;
@@ -89,7 +88,6 @@ body {
 
 .hero {
   display: flex;
-  overflow-x: auto;
   list-style: none;
 }
 
